@@ -1,0 +1,62 @@
+﻿<Page  
+    x:Class="raspberry.pi.test.MainPage"  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:raspberry.pi.test.Controls"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Column="0">
+            <controls:PinControl PinType="Pow_3V"/>
+            <controls:PinControl PinType="Pin" PinId="2" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="3" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="4" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Gnd"/>
+            <controls:PinControl PinType="Pin" PinId="17" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="27" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="22" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pow_3V"/>
+            <controls:PinControl PinType="Pin" PinId="10" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="9" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="11" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Gnd"/>
+            <controls:PinControl PinType="Reserved"/>
+            <controls:PinControl PinType="Pin" PinId="5" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="6" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="13" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="19" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="26" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Gnd"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="1">
+            <controls:PinControl PinType="Pow_5V"/>
+            <controls:PinControl PinType="Pow_5V"/>
+            <controls:PinControl PinType="Gnd"/>
+            <controls:PinControl PinType="Uarto"/>
+            <controls:PinControl PinType="Uarto"/>
+            <controls:PinControl PinType="Pin" PinId="18" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Gnd"/>
+            <controls:PinControl PinType="Pin" PinId="23" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="24" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Gnd"/>
+            <controls:PinControl PinType="Pin" PinId="25" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="8" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="7" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Reserved"/>
+            <controls:PinControl PinType="Gnd"/>
+            <controls:PinControl PinType="Pin" PinId="12" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Gnd"/>
+            <controls:PinControl PinType="Pin" PinId="16" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="20" OpenPin="PinControl_OpenPin"/>
+            <controls:PinControl PinType="Pin" PinId="21" OpenPin="PinControl_OpenPin"/>
+        </StackPanel>
+    </Grid>
+</Page> 

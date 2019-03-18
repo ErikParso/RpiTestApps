@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/I2C.ExpansionBoard/.vs/I2C.ExpansionBoard/v15
+/I2C.ExpansionBoard/I2C.ExpansionBoard/bin/ARM/Debug
+/I2C.ExpansionBoard/I2C.ExpansionBoard/obj
+/I2C.ExpansionBoard/I2C.ExpansionBoard/I2C.ExpansionBoard.csproj.user
+/RpiPinControllApp/.vs/RpiPinControllApp/v15
+/RpiPinControllApp/raspberry.pi.test/bin/ARM
+/RpiPinControllApp/raspberry.pi.test/obj
